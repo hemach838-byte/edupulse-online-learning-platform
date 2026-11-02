@@ -1,0 +1,515 @@
+{
+  "datasetMetadata": {
+    "name": "Sample Online Learning Data",
+    "sources": [
+      "https://www.kaggle.com/datasets/adarshsrinivas/online-course-data",
+      "https://www.kaggle.com/datasets/ashokpant/online-learning-platform"
+    ],
+    "description": "Comprehensive course catalog, instructor profiles, student enrollments, lessons, and quiz assessments modeled after Kaggle benchmark datasets.",
+    "version": "2.4.0",
+    "lastUpdated": "2026"
+  },
+  "courses": [
+    {
+      "title": "Full-Stack Web Development Bootcamp 2026",
+      "category": "Web Development",
+      "level": "Beginner",
+      "duration": "28 Hours",
+      "price": 0,
+      "rating": 4.9,
+      "totalRatings": 1420,
+      "thumbnail": "https://images.unsplash.com/photo-1593720219276-0b1eacd0aef4?auto=format&fit=crop&w=800&q=80",
+      "shortDescription": "Master HTML, CSS, JavaScript, React, Node.js, and MongoDB by building 10 real-world production projects.",
+      "description": "Become a full-stack web developer with this comprehensive, hands-on curriculum. This course takes you from absolute beginner with zero coding background to confidently deploying production applications. You will learn modern JavaScript (ES6+), responsive layout techniques with CSS Grid and Flexbox, state management in React, RESTful API design with Express and Node.js, and database schema modeling with MongoDB.",
+      "learningOutcomes": [
+        "Build full-stack web applications using the MERN stack",
+        "Implement secure JWT authentication and role-based access control",
+        "Design scalable RESTful APIs with Node.js and Express",
+        "Work with MongoDB and Mongoose for schema validation and indexing",
+        "Deploy full-stack applications to modern cloud platforms"
+      ],
+      "requirements": [
+        "A computer with internet access (Windows, Mac, or Linux)",
+        "No prior coding experience required; we start from scratch"
+      ],
+      "lessons": [
+        {
+          "title": "Introduction to Web Architecture & Client-Server Model",
+          "description": "Understand how the web works: HTTP requests, DNS resolution, servers, and modern web clients.",
+          "videoUrl": "https://www.youtube.com/embed/zJSY8tbf_ys",
+          "duration": "14 mins",
+          "order": 1,
+          "isFreePreview": true
+        },
+        {
+          "title": "Modern JavaScript (ES6+) Fundamentals & Asynchronous Programming",
+          "description": "Arrow functions, destructuring, promises, async/await, and event loop architecture.",
+          "videoUrl": "https://www.youtube.com/embed/W6NZfCO5SIk",
+          "duration": "22 mins",
+          "order": 2,
+          "isFreePreview": true
+        },
+        {
+          "title": "React Component Architecture, Hooks & State Flow",
+          "description": "Building interactive user interfaces using useState, useEffect, custom hooks, and context.",
+          "videoUrl": "https://www.youtube.com/embed/bMknfKXIFA8",
+          "duration": "30 mins",
+          "order": 3,
+          "isFreePreview": false
+        },
+        {
+          "title": "Backend Engineering: Node.js, Express & REST APIs",
+          "description": "Creating robust Express server endpoints, route handlers, middleware, and request validation.",
+          "videoUrl": "https://www.youtube.com/embed/Oe421EPjeBE",
+          "duration": "26 mins",
+          "order": 4,
+          "isFreePreview": false
+        },
+        {
+          "title": "Database Integration with MongoDB & Mongoose ORM",
+          "description": "Connecting MongoDB, defining Mongoose schemas, relationships, and performing CRUD queries.",
+          "videoUrl": "https://www.youtube.com/embed/ofme2o29ngU",
+          "duration": "28 mins",
+          "order": 5,
+          "isFreePreview": false
+        }
+      ],
+      "quiz": {
+        "title": "Full-Stack Web Foundations Assessment",
+        "description": "Test your grasp on client-server architecture, modern JavaScript, and React mechanics.",
+        "passingScore": 75,
+        "questions": [
+          {
+            "questionText": "What does the 'M' in the MERN stack stand for?",
+            "options": ["MySQL", "MongoDB", "MariaDB", "MemoryDB"],
+            "correctAnswerIndex": 1,
+            "marks": 1,
+            "explanation": "MERN stands for MongoDB, Express.js, React, and Node.js."
+          },
+          {
+            "questionText": "Which HTTP method is conventionally used to update an existing resource partially or completely?",
+            "options": ["GET", "POST", "PUT / PATCH", "DELETE"],
+            "correctAnswerIndex": 2,
+            "marks": 1,
+            "explanation": "PUT is used for full replacement or update, while PATCH applies partial updates to a resource."
+          },
+          {
+            "questionText": "In React, what hook is primarily used to perform side effects such as data fetching?",
+            "options": ["useState", "useEffect", "useMemo", "useReducer"],
+            "correctAnswerIndex": 1,
+            "marks": 1,
+            "explanation": "useEffect lets you synchronize a component with an external system such as APIs or event listeners."
+          },
+          {
+            "questionText": "How does Node.js handle asynchronous non-blocking I/O operations?",
+            "options": [
+              "By allocating a new physical OS thread for every single connection",
+              "Using a single-threaded Event Loop with libuv thread pool",
+              "By forcing all synchronous blocking operations to execute first",
+              "Node.js does not support asynchronous operations"
+            ],
+            "correctAnswerIndex": 1,
+            "marks": 1,
+            "explanation": "Node.js uses an event-driven, single-threaded event loop powered by libuv for asynchronous I/O."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Deep Learning & Machine Learning with Python",
+      "category": "Artificial Intelligence",
+      "level": "Intermediate",
+      "duration": "24 Hours",
+      "price": 49.99,
+      "rating": 4.95,
+      "totalRatings": 980,
+      "thumbnail": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=800&q=80",
+      "shortDescription": "Train neural networks, convolutional networks, and transformers using PyTorch, TensorFlow, and Scikit-Learn.",
+      "description": "Comprehensive journey through modern Artificial Intelligence. Learn regression, classification, clustering, followed by deep artificial neural networks, convolutional neural networks for computer vision, and recurrent architectures. Includes practical real-world Kaggle datasets.",
+      "learningOutcomes": [
+        "Implement supervised and unsupervised machine learning algorithms",
+        "Build and optimize multi-layer neural networks",
+        "Understand backpropagation, loss functions, and gradient descent optimizers",
+        "Develop computer vision models using CNNs",
+        "Evaluate model performance with ROC-AUC, precision, recall, and F1-score"
+      ],
+      "requirements": [
+        "Basic Python programming knowledge",
+        "High school level linear algebra and calculus"
+      ],
+      "lessons": [
+        {
+          "title": "Foundations of Machine Learning & Model Evaluation",
+          "description": "Train-test splitting, cross-validation, bias-variance tradeoff, and evaluation metrics.",
+          "videoUrl": "https://www.youtube.com/embed/i_LwzRVP7bg",
+          "duration": "18 mins",
+          "order": 1,
+          "isFreePreview": true
+        },
+        {
+          "title": "Gradient Descent & Backpropagation from Scratch",
+          "description": "Mathematical derivation and Python implementation of neural network learning.",
+          "videoUrl": "https://www.youtube.com/embed/IHZwWFHWa-w",
+          "duration": "24 mins",
+          "order": 2,
+          "isFreePreview": false
+        },
+        {
+          "title": "Convolutional Neural Networks (CNN) for Image Recognition",
+          "description": "Kernels, feature maps, pooling layers, and building vision classifiers.",
+          "videoUrl": "https://www.youtube.com/embed/tPYj3fFJGjk",
+          "duration": "32 mins",
+          "order": 3,
+          "isFreePreview": false
+        },
+        {
+          "title": "Transformers & Attention Mechanism Deep Dive",
+          "description": "Self-attention mechanism, multi-head attention, and transformer encoder-decoder layers.",
+          "videoUrl": "https://www.youtube.com/embed/wjZofJX0v4U",
+          "duration": "29 mins",
+          "order": 4,
+          "isFreePreview": false
+        }
+      ],
+      "quiz": {
+        "title": "Neural Networks & Machine Learning Core Quiz",
+        "description": "Validate your understanding of machine learning principles and neural architectures.",
+        "passingScore": 70,
+        "questions": [
+          {
+            "questionText": "What problem does the ReLU (Rectified Linear Unit) activation function help mitigate compared to Sigmoid?",
+            "options": [
+              "Vanishing gradient problem",
+              "Exploding batch size",
+              "Overfitting in shallow networks",
+              "High latency in GPU caching"
+            ],
+            "correctAnswerIndex": 0,
+            "marks": 1,
+            "explanation": "ReLU does not saturate for positive values, preventing gradients from vanishing during backpropagation."
+          },
+          {
+            "questionText": "Which metric is most informative when evaluating a model on an extremely imbalanced classification dataset?",
+            "options": ["Accuracy", "F1-Score / PR-AUC", "Mean Squared Error", "R-squared"],
+            "correctAnswerIndex": 1,
+            "marks": 1,
+            "explanation": "Accuracy can be deceptively high by always predicting the majority class; F1-score and Precision-Recall AUC balance sensitivity and precision."
+          },
+          {
+            "questionText": "What is the primary role of a pooling layer in a Convolutional Neural Network (CNN)?",
+            "options": [
+              "Downsample spatial dimensions to reduce parameters and computation",
+              "Compute dot products between labels",
+              "Convert weights into probabilities",
+              "Calculate learning rate decay"
+            ],
+            "correctAnswerIndex": 0,
+            "marks": 1,
+            "explanation": "Pooling layers downsample the feature maps, reducing spatial size and translation sensitivity."
+          }
+        ]
+      }
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner & Solutions Architect",
+      "category": "Cloud Computing",
+      "level": "Beginner",
+      "duration": "18 Hours",
+      "price": 0,
+      "rating": 4.88,
+      "totalRatings": 760,
+      "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
+      "shortDescription": "Master Amazon Web Services: EC2, S3, IAM, VPC, Lambda, RDS, and CloudFront with hands-on architectural labs.",
+      "description": "Design fault-tolerant, highly available, and scalable cloud architectures on AWS. Prepare for the AWS Certified Solutions Architect Associate exam with real architecture diagrams, IAM security best practices, multi-AZ deployment, serverless computing with AWS Lambda, and managed databases.",
+      "learningOutcomes": [
+        "Design scalable, highly available architectures on AWS",
+        "Configure Virtual Private Clouds (VPC), Subnets, and Security Groups",
+        "Implement serverless microservices with AWS Lambda & API Gateway",
+        "Secure cloud infrastructure using IAM policies and encryption at rest/transit"
+      ],
+      "requirements": [
+        "Basic understanding of computers and networking (IP addresses, ports)",
+        "Free tier AWS account for practice labs"
+      ],
+      "lessons": [
+        {
+          "title": "Cloud Computing Essentials & AWS Global Infrastructure",
+          "description": "Regions, Availability Zones, Edge Locations, and shared responsibility model.",
+          "videoUrl": "https://www.youtube.com/embed/k1RI5locZE4",
+          "duration": "16 mins",
+          "order": 1,
+          "isFreePreview": true
+        },
+        {
+          "title": "Identity and Access Management (IAM) Best Practices",
+          "description": "Users, groups, roles, policies, MFA, and least-privilege security principle.",
+          "videoUrl": "https://www.youtube.com/embed/ubCNtzsc-78",
+          "duration": "21 mins",
+          "order": 2,
+          "isFreePreview": false
+        },
+        {
+          "title": "Compute: EC2, Auto-Scaling Groups & Elastic Load Balancers",
+          "description": "Deploying virtual instances, configuring health checks, and automatic horizontal scaling.",
+          "videoUrl": "https://www.youtube.com/embed/3hLmDS179YE",
+          "duration": "27 mins",
+          "order": 3,
+          "isFreePreview": false
+        },
+        {
+          "title": "Networking: Building a Secure VPC with Public & Private Subnets",
+          "description": "Internet Gateways, Route Tables, NAT Gateways, and Network ACLs.",
+          "videoUrl": "https://www.youtube.com/embed/Ia-UEYYR44s",
+          "duration": "25 mins",
+          "order": 4,
+          "isFreePreview": false
+        }
+      ],
+      "quiz": {
+        "title": "AWS Cloud Architecture Certification Quiz",
+        "description": "Assess your understanding of AWS infrastructure, security, and networking concepts.",
+        "passingScore": 80,
+        "questions": [
+          {
+            "questionText": "According to the AWS Shared Responsibility Model, what is the customer responsible for in EC2?",
+            "options": [
+              "Physical data center security",
+              "Guest operating system patches, application code, and firewall configurations",
+              "Server hardware replacement",
+              "Hypervisor maintenance"
+            ],
+            "correctAnswerIndex": 1,
+            "marks": 1,
+            "explanation": "Security OF the cloud is AWS's responsibility, while security IN the cloud (OS patches, application logic, data) is the customer's responsibility."
+          },
+          {
+            "questionText": "Which service allows instances in a private subnet to initiate outbound internet connections without being reached from the internet?",
+            "options": ["Internet Gateway", "NAT Gateway", "Virtual Private Gateway", "VPC Endpoint"],
+            "correctAnswerIndex": 1,
+            "marks": 1,
+            "explanation": "A NAT (Network Address Translation) Gateway enables instances in private subnets to reach out for software updates while preventing unsolicited inbound traffic."
+          },
+          {
+            "questionText": "Which Amazon S3 storage class is best suited for data accessed less than once a month with millisecond retrieval requirement?",
+            "options": ["S3 Standard-Infrequent Access (S3 Standard-IA)", "S3 Glacier Deep Archive", "S3 Glacier Flexible", "S3 One Zone"],
+            "correctAnswerIndex": 0,
+            "marks": 1,
+            "explanation": "S3 Standard-IA offers lower storage costs for infrequently accessed data while retaining immediate millisecond access."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Cybersecurity Fundamentals: Ethical Hacking & Defense",
+      "category": "Cyber Security",
+      "level": "All Levels",
+      "duration": "16 Hours",
+      "price": 29.99,
+      "rating": 4.87,
+      "totalRatings": 510,
+      "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
+      "shortDescription": "Learn penetration testing, OWASP Top 10 vulnerabilities, network scanning, cryptography, and defense.",
+      "description": "Understand modern threat actors and how to defend computer systems and web applications against them. Covers Kali Linux, Nmap, Wireshark, SQL Injection, Cross-Site Scripting (XSS), CSRF, cryptographic hashing, and incident response fundamentals.",
+      "learningOutcomes": [
+        "Detect and patch OWASP Top 10 vulnerabilities in web applications",
+        "Perform reconnaissance and port scanning using Nmap",
+        "Analyze captured network packets with Wireshark",
+        "Implement secure password hashing using bcrypt/Argon2"
+      ],
+      "requirements": [
+        "Basic computer literacy",
+        "Willingness to learn ethical, defensive security techniques"
+      ],
+      "lessons": [
+        {
+          "title": "Threat Modeling, CIA Triad & Fundamentals of Ethical Hacking",
+          "description": "Confidentiality, Integrity, Availability, defense-in-depth, and attack lifecycle.",
+          "videoUrl": "https://www.youtube.com/embed/3Kq1MIfTWCE",
+          "duration": "19 mins",
+          "order": 1,
+          "isFreePreview": true
+        },
+        {
+          "title": "Network Analysis & Packet Inspection with Wireshark",
+          "description": "Deep packet analysis, TCP handshakes, TLS negotiation, and discovering plaintext leaks.",
+          "videoUrl": "https://www.youtube.com/embed/lb1Dw0elw0Q",
+          "duration": "23 mins",
+          "order": 2,
+          "isFreePreview": false
+        },
+        {
+          "title": "Web Security: Defeating SQL Injection & Cross-Site Scripting (XSS)",
+          "description": "Parameterized queries, prepared statements, input sanitization, and Content Security Policy.",
+          "videoUrl": "https://www.youtube.com/embed/2_lswM1S264",
+          "duration": "28 mins",
+          "order": 3,
+          "isFreePreview": false
+        }
+      ],
+      "quiz": {
+        "title": "Cybersecurity Defenses Assessment",
+        "description": "Test your knowledge of web attack vectors and hardening methodologies.",
+        "passingScore": 75,
+        "questions": [
+          {
+            "questionText": "What is the primary method to prevent SQL Injection in database queries?",
+            "options": [
+              "Using client-side JavaScript regex",
+              "Using parameterized queries (prepared statements)",
+              "Base64 encoding all strings",
+              "Disabling database indexes"
+            ],
+            "correctAnswerIndex": 1,
+            "marks": 1,
+            "explanation": "Parameterized queries separate SQL code from user-supplied data, ensuring untrusted input is treated strictly as literal data."
+          },
+          {
+            "questionText": "In the CIA Triad, what does 'Integrity' mean?",
+            "options": [
+              "Data is only accessible to paying subscribers",
+              "Data is accurate, trustworthy, and protected from unauthorized modification",
+              "Systems are always available 99.999% of the time",
+              "Servers are hosted in multiple geographical regions"
+            ],
+            "correctAnswerIndex": 1,
+            "marks": 1,
+            "explanation": "Integrity guarantees that information has not been tampered with or altered by unauthorized parties."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Data Science & Big Data Analytics with Pandas & SQL",
+      "category": "Data Science",
+      "level": "Beginner",
+      "duration": "20 Hours",
+      "price": 0,
+      "rating": 4.82,
+      "totalRatings": 640,
+      "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+      "shortDescription": "Extract actionable business insights using Python, NumPy, Pandas, Matplotlib, Seaborn, and SQL.",
+      "description": "Step into the high-demand field of data science. Learn data wrangling, missing data imputation, exploratory data analysis (EDA), statistical hypothesis testing, and interactive dashboard visualization using real Kaggle datasets.",
+      "learningOutcomes": [
+        "Clean, reshape, and aggregate messy datasets using Pandas",
+        "Write complex SQL queries with window functions and subqueries",
+        "Create publication-quality visualizations using Seaborn and Matplotlib",
+        "Conduct statistical hypothesis testing (t-test, ANOVA, chi-square)"
+      ],
+      "requirements": [
+        "No prior statistics or programming experience required",
+        "Free install of Anaconda / Jupyter Notebooks"
+      ],
+      "lessons": [
+        {
+          "title": "Data Manipulation and Indexing with Pandas DataFrames",
+          "description": "Loading CSV/JSON datasets, series indexing, slicing, filtering, and group-by aggregations.",
+          "videoUrl": "https://www.youtube.com/embed/vmEHCJofslg",
+          "duration": "22 mins",
+          "order": 1,
+          "isFreePreview": true
+        },
+        {
+          "title": "Advanced SQL: Window Functions, CTEs & Multi-table Joins",
+          "description": "Writing analytical SQL queries to answer high-stakes business questions.",
+          "videoUrl": "https://www.youtube.com/embed/HXV3zeRRBAQ",
+          "duration": "26 mins",
+          "order": 2,
+          "isFreePreview": false
+        },
+        {
+          "title": "Exploratory Data Analysis (EDA) & Data Storytelling",
+          "description": "Distributions, correlation heatmaps, box plots, and detecting outliers.",
+          "videoUrl": "https://www.youtube.com/embed/Ea_kRlt7_8U",
+          "duration": "20 mins",
+          "order": 3,
+          "isFreePreview": false
+        }
+      ],
+      "quiz": {
+        "title": "Data Science & Analytical SQL Quiz",
+        "description": "Assess your skills in data transformation, aggregation, and query analysis.",
+        "passingScore": 70,
+        "questions": [
+          {
+            "questionText": "In SQL, what is the key difference between WHERE and HAVING clauses?",
+            "options": [
+              "WHERE filters individual rows before grouping; HAVING filters aggregated groups after GROUP BY",
+              "HAVING is only valid in MySQL",
+              "WHERE can only be used with primary keys",
+              "There is no difference; they are aliases"
+            ],
+            "correctAnswerIndex": 0,
+            "marks": 1,
+            "explanation": "WHERE filters rows before aggregation occurs, whereas HAVING filters groups produced by GROUP BY."
+          },
+          {
+            "questionText": "In Pandas, which method is used to replace missing (NaN) values with a specified value or statistical measure?",
+            "options": ["df.dropna()", "df.fillna()", "df.replace_null()", "df.impute()"],
+            "correctAnswerIndex": 1,
+            "marks": 1,
+            "explanation": "df.fillna() replaces null/NaN values with a specified scalar or interpolated value."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Modern UI/UX Design with Figma: From Wireframe to Prototype",
+      "category": "Design",
+      "level": "All Levels",
+      "duration": "12 Hours",
+      "price": 19.99,
+      "rating": 4.91,
+      "totalRatings": 430,
+      "thumbnail": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=800&q=80",
+      "shortDescription": "Create modern, accessible, responsive mobile and web interfaces with Figma design systems.",
+      "description": "Master Figma from scratch. Learn typography scales, color theory, spacing systems, Auto Layout 5.0, design tokens, interactive prototyping, micro-interactions, and design-to-code developer handoff.",
+      "learningOutcomes": [
+        "Design responsive web and mobile layouts using Auto Layout",
+        "Build scalable design systems with reusable components and variants",
+        "Create interactive clickable prototypes with smart animations",
+        "Ensure WCAG contrast accessibility in modern digital products"
+      ],
+      "requirements": [
+        "Free Figma account",
+        "Curiosity for visual aesthetics and user behavior"
+      ],
+      "lessons": [
+        {
+          "title": "Figma Workspace, Vector Tools & Layout Grids",
+          "description": "Frames, groups, responsive layout grids, and keyboard productivity shortcuts.",
+          "videoUrl": "https://www.youtube.com/embed/FTFaQWZBqQ8",
+          "duration": "17 mins",
+          "order": 1,
+          "isFreePreview": true
+        },
+        {
+          "title": "Auto Layout, Constraints & Responsive Components",
+          "description": "Nesting Auto Layout containers, flex-like behavior, and responsive resizing.",
+          "videoUrl": "https://www.youtube.com/embed/NrKX46DzkGQ",
+          "duration": "24 mins",
+          "order": 2,
+          "isFreePreview": false
+        }
+      ],
+      "quiz": {
+        "title": "UI/UX & Design Systems Assessment",
+        "description": "Test your grasp on typography, layout hierarchy, and Figma component mechanics.",
+        "passingScore": 70,
+        "questions": [
+          {
+            "questionText": "What is the primary benefit of using Figma Component Variants?",
+            "options": [
+              "Reduce file storage size on Figma servers",
+              "Combine similar components (like button states: hover, active, disabled) into a single organized master component",
+              "Automatically export code into React Native",
+              "Disable CSS animations in the browser"
+            ],
+            "correctAnswerIndex": 1,
+            "marks": 1,
+            "explanation": "Variants group multiple variations of the same component under one master component for clean switching."
+          }
+        ]
+      }
+    }
+  ]
+}
