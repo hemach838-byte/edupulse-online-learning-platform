@@ -1,0 +1,34 @@
+{
+  "name": "online-learning-backend",
+  "version": "1.0.0",
+  "description": "Full-Stack Online Learning Platform REST API",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed/seedData.js"
+  },
+  "keywords": [
+    "online-learning",
+    "express",
+    "mongodb",
+    "jwt",
+    "lms"
+  ],
+  "author": "TechnoGlobal Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^7.8.0",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.1.3"
+  }
+}

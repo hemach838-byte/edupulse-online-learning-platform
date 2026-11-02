@@ -1,0 +1,23 @@
+{
+  "name": "edupulse-online-learning-platform",
+  "version": "1.0.0",
+  "description": "Full-Stack Online Learning Platform (React, Node, Express, MongoDB, JWT)",
+  "scripts": {
+    "install:all": "cmd /c \"cd backend && npm install\" && cmd /c \"cd frontend && npm install\"",
+    "seed": "cmd /c \"cd backend && npm run seed\"",
+    "server": "cmd /c \"cd backend && npm start\"",
+    "client": "cmd /c \"cd frontend && npm run dev\"",
+    "build": "cmd /c \"cd frontend && npm run build\""
+  },
+  "keywords": [
+    "react",
+    "express",
+    "mongodb",
+    "lms",
+    "full-stack",
+    "jwt",
+    "technoglobal"
+  ],
+  "author": "TechnoGlobal Team",
+  "license": "ISC"
+}

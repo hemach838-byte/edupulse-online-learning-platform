@@ -1,0 +1,524 @@
+{
+  "datasetMetadata": {
+    "name": "Sample Online Learning Data",
+    "sources": [
+      "Kaggle — Online Course Data (https://www.kaggle.com/datasets/adarshsrinivas/online-course-data)",
+      "Kaggle — Online Learning Platform (https://www.kaggle.com/datasets/ashokpant/online-learning-platform)",
+      "TechnoGlobal Synthetic Educational Standards"
+    ],
+    "description": "Comprehensive benchmark dataset representing multi-disciplinary online courses, curriculum modules, interactive quizzes, and student learning analytics."
+  },
+  "courses": [
+    {
+      "title": "Modern Full-Stack React & Node.js Masterclass",
+      "subtitle": "Build production-ready, scalable web applications from scratch using MERN architecture",
+      "description": "An exhaustive, project-oriented masterclass covering modern React, Express.js REST APIs, MongoDB schema design, JWT authentication, state management, and cloud deployment. Learn through real-world architectural design patterns and industry best practices.",
+      "category": "Web Development",
+      "level": "All Levels",
+      "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=1000&q=80",
+      "duration": "14 hours",
+      "price": 0,
+      "isFree": true,
+      "isPublished": true,
+      "isFeatured": true,
+      "rating": 4.9,
+      "reviewsCount": 428,
+      "enrolledCount": 1840,
+      "instructorIndex": 0,
+      "whatYouWillLearn": [
+        "Master React 18+ component architecture, hooks, and context",
+        "Design RESTful APIs with Node.js and Express",
+        "Implement secure JWT authentication and password hashing with bcrypt",
+        "Build complex MongoDB databases with Mongoose schemas and relationships",
+        "Deploy full-stack applications with production security and performance"
+      ],
+      "prerequisites": [
+        "Basic understanding of HTML, CSS, and modern JavaScript (ES6+)",
+        "A computer with internet access and VS Code installed"
+      ],
+      "lessons": [
+        {
+          "title": "Introduction to Full-Stack Architecture & Modern Web Ecosystem",
+          "description": "Understand client-server architecture, HTTP protocols, REST conventions, and how React and Node work in unison.",
+          "videoUrl": "https://www.youtube.com/embed/nu_pCVPKzTk",
+          "duration": "18 mins",
+          "isFreePreview": true
+        },
+        {
+          "title": "React 18 Core Foundations: Components, State, & Effects",
+          "description": "Deep dive into component lifecycle, useState, useEffect, customized hooks, and state immutability patterns.",
+          "videoUrl": "https://www.youtube.com/embed/bMknfKXIFA8",
+          "duration": "28 mins",
+          "isFreePreview": true
+        },
+        {
+          "title": "Building RESTful APIs with Node.js & Express.js",
+          "description": "Route controllers, middleware pipelines, error handling, and request validation in Express.",
+          "videoUrl": "https://www.youtube.com/embed/Oe421EPjeBE",
+          "duration": "35 mins",
+          "isFreePreview": false
+        },
+        {
+          "title": "MongoDB & Mongoose Schema Architecture",
+          "description": "Document-based database modeling, indexes, relationships, validations, and aggregation pipelines.",
+          "videoUrl": "https://www.youtube.com/embed/7CqJlxBYj-M",
+          "duration": "32 mins",
+          "isFreePreview": false
+        },
+        {
+          "title": "JWT Authentication & Role-Based Authorization",
+          "description": "Securing API endpoints with JSON Web Tokens, bcrypt password hashing, and role verification middleware.",
+          "videoUrl": "https://www.youtube.com/embed/mbsmsi7l3r4",
+          "duration": "40 mins",
+          "isFreePreview": false
+        }
+      ],
+      "quiz": {
+        "title": "Full-Stack Web Development Comprehensive Assessment",
+        "description": "Test your mastery of React, Express, MongoDB, and secure JWT authentication.",
+        "passingScore": 70,
+        "timeLimitMinutes": 15,
+        "questions": [
+          {
+            "questionText": "What is the primary role of JSON Web Tokens (JWT) in full-stack architecture?",
+            "options": [
+              "Encrypting the MongoDB database records",
+              "Stateless, digitally signed authentication and authorization between client and server",
+              "Minifying JavaScript bundles for production",
+              "Managing real-time WebSocket socket connections"
+            ],
+            "correctAnswer": 1,
+            "marks": 10,
+            "explanation": "JWTs provide a compact and self-contained way for securely transmitting information between parties as a JSON object, enabling stateless authorization."
+          },
+          {
+            "questionText": "Which HTTP status code should be returned when a client attempts to access a protected route without a valid token?",
+            "options": [
+              "200 OK",
+              "401 Unauthorized",
+              "404 Not Found",
+              "500 Internal Server Error"
+            ],
+            "correctAnswer": 1,
+            "marks": 10,
+            "explanation": "401 Unauthorized is the standard HTTP status code indicating that authentication is required and has failed or has not been provided."
+          },
+          {
+            "questionText": "In React, what hook should you use to handle side effects such as data fetching or subscriptions?",
+            "options": [
+              "useState",
+              "useMemo",
+              "useEffect",
+              "useCallback"
+            ],
+            "correctAnswer": 2,
+            "marks": 10,
+            "explanation": "useEffect allows you to perform side effects in functional components like API calls, event listeners, and DOM updates."
+          },
+          {
+            "questionText": "In MongoDB, what is a document within a collection equivalent to in relational SQL databases?",
+            "options": [
+              "A table",
+              "A column",
+              "A row / record",
+              "A foreign key constraint"
+            ],
+            "correctAnswer": 2,
+            "marks": 10,
+            "explanation": "A MongoDB document is analogous to a single row or tuple in a relational SQL table."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Deep Learning & Applied Machine Learning with Python",
+      "subtitle": "Comprehensive machine learning from linear models to deep neural networks",
+      "description": "Explore the foundations of predictive modeling, supervised and unsupervised learning, convolutional neural networks, and natural language processing using Python, Scikit-Learn, PyTorch, and NumPy.",
+      "category": "Data Science & AI",
+      "level": "Intermediate",
+      "thumbnail": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=1000&q=80",
+      "duration": "16 hours",
+      "price": 0,
+      "isFree": true,
+      "isPublished": true,
+      "isFeatured": true,
+      "rating": 4.85,
+      "reviewsCount": 312,
+      "enrolledCount": 1240,
+      "instructorIndex": 1,
+      "whatYouWillLearn": [
+        "Data preprocessing, exploratory analysis, and feature engineering",
+        "Linear Regression, Logistic Regression, Decision Trees, and Random Forests",
+        "Neural network architectures, forward & backpropagation",
+        "Model evaluation metrics: Precision, Recall, F1-Score, and ROC-AUC",
+        "Deploying ML models with REST APIs"
+      ],
+      "prerequisites": [
+        "Familiarity with Python syntax and basic linear algebra concepts"
+      ],
+      "lessons": [
+        {
+          "title": "Python for Data Science: NumPy & Pandas Intensive",
+          "description": "High-performance vector operations, DataFrame manipulations, and missing data imputation.",
+          "videoUrl": "https://www.youtube.com/embed/LHBE6Q9XlzI",
+          "duration": "25 mins",
+          "isFreePreview": true
+        },
+        {
+          "title": "Supervised Learning Fundamentals & Cross Validation",
+          "description": "Train-test splits, bias-variance tradeoff, k-fold cross validation, and regularization techniques.",
+          "videoUrl": "https://www.youtube.com/embed/aircAruvnKk",
+          "duration": "30 mins",
+          "isFreePreview": true
+        },
+        {
+          "title": "Deep Neural Networks: Backpropagation & Optimization",
+          "description": "Gradient descent variants (Adam, RMSProp), activation functions, and layer stacking.",
+          "videoUrl": "https://www.youtube.com/embed/VMj-3S1tku0",
+          "duration": "45 mins",
+          "isFreePreview": false
+        }
+      ],
+      "quiz": {
+        "title": "Machine Learning Foundations Knowledge Check",
+        "description": "Assess your understanding of supervised learning, model evaluation, and neural networks.",
+        "passingScore": 75,
+        "timeLimitMinutes": 15,
+        "questions": [
+          {
+            "questionText": "What occurs when a machine learning model fits training data too closely and fails on unseen test data?",
+            "options": [
+              "Underfitting",
+              "Overfitting",
+              "Feature scaling",
+              "Stochastic resonance"
+            ],
+            "correctAnswer": 1,
+            "marks": 10,
+            "explanation": "Overfitting happens when a model memorizes noise and specific details in training data, compromising generalization to new datasets."
+          },
+          {
+            "questionText": "Which metric is most useful for evaluating an imbalanced classification problem?",
+            "options": [
+              "Raw Accuracy",
+              "F1-Score / PR-AUC",
+              "Mean Squared Error",
+              "R-Squared"
+            ],
+            "correctAnswer": 1,
+            "marks": 10,
+            "explanation": "F1-Score (harmonic mean of precision and recall) provides a balanced view when classes are severely skewed."
+          },
+          {
+            "questionText": "What is the primary function of an activation function in a neural network layer?",
+            "options": [
+              "To store the weights in GPU memory",
+              "To introduce non-linearity so the network can learn complex patterns",
+              "To normalize file sizes during training",
+              "To calculate the final database index"
+            ],
+            "correctAnswer": 1,
+            "marks": 10,
+            "explanation": "Without non-linear activation functions (like ReLU or GELU), stacking linear layers would simply reduce to a single linear equation."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Modern UI/UX Design System & Figma Prototyping",
+      "subtitle": "Create industry-grade design systems, wireframes, and interactive micro-prototypes",
+      "description": "Master visual hierarchy, accessibility standards (WCAG AAA), component variants, autolayout, design tokens, and user research methodologies using Figma.",
+      "category": "UI/UX Design",
+      "level": "Beginner",
+      "thumbnail": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=1000&q=80",
+      "duration": "8 hours",
+      "price": 0,
+      "isFree": true,
+      "isPublished": true,
+      "isFeatured": true,
+      "rating": 4.92,
+      "reviewsCount": 260,
+      "enrolledCount": 1520,
+      "instructorIndex": 2,
+      "whatYouWillLearn": [
+        "Design tokens: Typography scales, color palettes, and 8pt spacing grid",
+        "Master Figma Auto-Layout 5.0 and nested component variants",
+        "Heuristic evaluations and usability testing protocols",
+        "Responsive design across mobile, tablet, and desktop breakpoints"
+      ],
+      "prerequisites": [
+        "No prior design experience required. Free Figma account."
+      ],
+      "lessons": [
+        {
+          "title": "Design Principles & Visual Hierarchy 101",
+          "description": "Contrast, alignment, proximity, repetition, and cognitive load management.",
+          "videoUrl": "https://www.youtube.com/embed/c9Wg6Cb_YlU",
+          "duration": "22 mins",
+          "isFreePreview": true
+        },
+        {
+          "title": "Figma Auto-Layout & Scalable Components",
+          "description": "Building dynamic buttons, cards, and navigation bars with auto-layout and interactive states.",
+          "videoUrl": "https://www.youtube.com/embed/FTFaQWZBqQ8",
+          "duration": "35 mins",
+          "isFreePreview": true
+        }
+      ],
+      "quiz": {
+        "title": "UI/UX Fundamentals & Design Systems Exam",
+        "description": "Test your grasp of color contrast, typography rules, and component architecture.",
+        "passingScore": 70,
+        "timeLimitMinutes": 10,
+        "questions": [
+          {
+            "questionText": "According to the 8-point spatial grid system, what is the recommended spacing unit multiplier?",
+            "options": [
+              "Multiples of 5 (5px, 10px, 15px)",
+              "Multiples of 8 (8px, 16px, 24px, 32px)",
+              "Multiples of 7 (7px, 14px, 21px)",
+              "Any random pixel value"
+            ],
+            "correctAnswer": 1,
+            "marks": 10,
+            "explanation": "The 8-point grid scales predictably across display densities (1x, 2x, 3x) and ensures visual rhythm."
+          },
+          {
+            "questionText": "What does WCAG 2.1 AA require as the minimum contrast ratio for normal body text against its background?",
+            "options": [
+              "2:1",
+              "3:1",
+              "4.5:1",
+              "7:1"
+            ],
+            "correctAnswer": 2,
+            "marks": 10,
+            "explanation": "WCAG AA requires at least 4.5:1 contrast for normal body copy to ensure legibility for users with visual impairments."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Complete Cloud Architecture & Kubernetes on AWS",
+      "subtitle": "Deploy, manage, and scale cloud-native microservices with Docker, Kubernetes, and AWS",
+      "description": "Learn cloud infrastructure engineering, VPC networking, IAM security, containerization with Docker, and orchestrating resilient production clusters with Kubernetes (EKS).",
+      "category": "Cloud & DevOps",
+      "level": "Advanced",
+      "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1000&q=80",
+      "duration": "12 hours",
+      "price": 0,
+      "isFree": true,
+      "isPublished": true,
+      "isFeatured": false,
+      "rating": 4.88,
+      "reviewsCount": 195,
+      "enrolledCount": 890,
+      "instructorIndex": 0,
+      "whatYouWillLearn": [
+        "AWS Core Services: EC2, S3, RDS, IAM, VPC, and CloudWatch",
+        "Docker containerization best practices and multi-stage builds",
+        "Kubernetes Pods, Services, Deployments, ConfigMaps, and Ingress",
+        "CI/CD pipelines with automated testing and blue-green deployments"
+      ],
+      "prerequisites": [
+        "Basic Linux terminal experience and networking fundamentals"
+      ],
+      "lessons": [
+        {
+          "title": "Cloud Computing Concepts & AWS Global Infrastructure",
+          "description": "Regions, Availability Zones, Edge Locations, and Shared Responsibility Model.",
+          "videoUrl": "https://www.youtube.com/embed/3hLmDS179YE",
+          "duration": "24 mins",
+          "isFreePreview": true
+        },
+        {
+          "title": "Docker Containers from Development to Production",
+          "description": "Writing clean Dockerfiles, image caching, container networking, and volumes.",
+          "videoUrl": "https://www.youtube.com/embed/fqMOX6JJhGo",
+          "duration": "38 mins",
+          "isFreePreview": false
+        }
+      ],
+      "quiz": {
+        "title": "Cloud & DevOps Architecture Certification Quiz",
+        "description": "Verify your understanding of containerization, cloud networking, and orchestration.",
+        "passingScore": 75,
+        "timeLimitMinutes": 15,
+        "questions": [
+          {
+            "questionText": "In Kubernetes, what is the smallest deployable computing unit?",
+            "options": [
+              "A Node",
+              "A Pod",
+              "A Cluster",
+              "An Ingress Controller"
+            ],
+            "correctAnswer": 1,
+            "marks": 10,
+            "explanation": "A Pod encapsulates one or more co-located containers, storage resources, and unique network IP."
+          },
+          {
+            "questionText": "What AWS service provides managed relational databases with automated backups and failover?",
+            "options": [
+              "Amazon DynamoDB",
+              "Amazon S3",
+              "Amazon RDS",
+              "Amazon EC2"
+            ],
+            "correctAnswer": 2,
+            "marks": 10,
+            "explanation": "Amazon RDS manages relational engines including PostgreSQL, MySQL, and MariaDB."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Ethical Hacking & Modern Cyber Security Defense",
+      "subtitle": "Hands-on penetration testing, network defense, vulnerability scanning, and cryptography",
+      "description": "Understand offensive security and practical defense mechanisms. Learn OWASP Top 10 vulnerabilities, reconnaissance, packet analysis with Wireshark, buffer overflows, and defensive hardening.",
+      "category": "Cyber Security",
+      "level": "Intermediate",
+      "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1000&q=80",
+      "duration": "14 hours",
+      "price": 0,
+      "isFree": true,
+      "isPublished": true,
+      "isFeatured": false,
+      "rating": 4.94,
+      "reviewsCount": 210,
+      "enrolledCount": 780,
+      "instructorIndex": 1,
+      "whatYouWillLearn": [
+        "OWASP Top 10 web vulnerabilities (SQLi, XSS, CSRF, SSRF)",
+        "Network penetration testing and Wireshark packet inspection",
+        "Asymmetric and symmetric encryption, TLS/SSL certificates",
+        "Zero Trust architecture and security posture auditing"
+      ],
+      "prerequisites": [
+        "Basic computer networking (TCP/IP, DNS, HTTP)"
+      ],
+      "lessons": [
+        {
+          "title": "Cyber Security Landscape & Threat Modeling",
+          "description": "Attack vectors, CIA triad, threat modeling frameworks (STRIDE), and ethical rules of engagement.",
+          "videoUrl": "https://www.youtube.com/embed/inWWhr5tnEA",
+          "duration": "30 mins",
+          "isFreePreview": true
+        },
+        {
+          "title": "OWASP Top 10: SQL Injection & Cross-Site Scripting (XSS)",
+          "description": "Dissecting how injection flaws manifest and how parameterized queries prevent them.",
+          "videoUrl": "https://www.youtube.com/embed/2_lswM1S264",
+          "duration": "42 mins",
+          "isFreePreview": false
+        }
+      ],
+      "quiz": {
+        "title": "Cyber Security Defense Assessment",
+        "description": "Test your knowledge of common attack vectors and defense techniques.",
+        "passingScore": 80,
+        "timeLimitMinutes": 10,
+        "questions": [
+          {
+            "questionText": "What does the CIA triad stand for in information security?",
+            "options": [
+              "Central Intelligence Agency",
+              "Confidentiality, Integrity, and Availability",
+              "Control, Inspection, and Authorization",
+              "Cryptography, Identity, and Authentication"
+            ],
+            "correctAnswer": 1,
+            "marks": 10,
+            "explanation": "Confidentiality, Integrity, and Availability are the three foundational pillars of information security."
+          },
+          {
+            "questionText": "What is the primary method to prevent SQL Injection in backend applications?",
+            "options": [
+              "Client-side regex checking only",
+              "Parameterized queries / Prepared statements",
+              "Using HTTP instead of HTTPS",
+              "Increasing the database port number"
+            ],
+            "correctAnswer": 1,
+            "marks": 10,
+            "explanation": "Parameterized queries separate SQL code from untrusted user input, neutralizing injection attempts."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Cross-Platform Mobile Apps with React Native",
+      "subtitle": "Ship native iOS and Android apps with a single modern TypeScript & React codebase",
+      "description": "Build high-performance, fluid mobile applications. Learn native device APIs, push notifications, offline data caching, camera integration, and App Store / Google Play release preparation.",
+      "category": "Mobile Development",
+      "level": "Intermediate",
+      "thumbnail": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1000&q=80",
+      "duration": "11 hours",
+      "price": 0,
+      "isFree": true,
+      "isPublished": true,
+      "isFeatured": false,
+      "rating": 4.82,
+      "reviewsCount": 178,
+      "enrolledCount": 910,
+      "instructorIndex": 2,
+      "whatYouWillLearn": [
+        "Expo framework, React Native core components and StyleSheet API",
+        "React Navigation 6 (Stack, Tabs, Drawers)",
+        "Hardware sensors, geolocation, and camera APIs",
+        "State management with Zustand and offline persistence"
+      ],
+      "prerequisites": [
+        "Working knowledge of React and JavaScript fundamentals"
+      ],
+      "lessons": [
+        {
+          "title": "React Native & Expo Ecosystem Setup",
+          "description": "Setting up the simulator, Expo Go, component bridges, and native flexbox layouts.",
+          "videoUrl": "https://www.youtube.com/embed/0-S5a0eXPoc",
+          "duration": "28 mins",
+          "isFreePreview": true
+        },
+        {
+          "title": "Navigation Flows: Tabs, Stacks, and Modals",
+          "description": "Implementing fluid screen transitions and passing type-safe route parameters.",
+          "videoUrl": "https://www.youtube.com/embed/ANdSdIlgsEw",
+          "duration": "35 mins",
+          "isFreePreview": false
+        }
+      ],
+      "quiz": {
+        "title": "React Native Mobile Development Check",
+        "description": "Assess your understanding of native mobile compilation and navigation.",
+        "passingScore": 70,
+        "timeLimitMinutes": 10,
+        "questions": [
+          {
+            "questionText": "What is the equivalent of the HTML <div> tag in React Native?",
+            "options": [
+              "<Div>",
+              "<View>",
+              "<Container>",
+              "<Section>"
+            ],
+            "correctAnswer": 1,
+            "marks": 10,
+            "explanation": "In React Native, the fundamental UI container component is <View>."
+          },
+          {
+            "questionText": "How does React Native render native UI widgets on iOS and Android?",
+            "options": [
+              "By running an embedded webview browser on every screen",
+              "By bridging JavaScript calls to invoke platform-specific native views (e.g. UIView on iOS, android.view.View on Android)",
+              "By compiling JS directly into x86 machine code ahead of time",
+              "By generating static PNG snapshots"
+            ],
+            "correctAnswer": 1,
+            "marks": 10,
+            "explanation": "React Native communicates across an asynchronous bridge / JSI with native platform components to produce truly native performance."
+          }
+        ]
+      }
+    }
+  ]
+}
