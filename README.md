@@ -28,6 +28,21 @@
 15. [Future Enhancements](#15-future-enhancements)
 
 ---
+ Live Demo
+
+🚀 Frontend: Deploying on Vercel
+
+🔗 Backend API:
+https://edupulse-online-learning-platform.onrender.com
+
+🔗 Backend Health Check:
+https://edupulse-online-learning-platform.onrender.com/api/health
+
+📦 GitHub Repository:
+https://github.com/hemach838-byte/edupulse-online-learning-platform
+
+The final Vercel frontend URL will be added here after deployment.
+
 
 ## 1. Project Overview & Objective
 
