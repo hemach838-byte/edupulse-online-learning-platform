@@ -41,7 +41,7 @@ https://edupulse-online-learning-platform.onrender.com/api/health
 📦 GitHub Repository:
 https://github.com/hemach838-byte/edupulse-online-learning-platform
 
-The final Vercel frontend URL will be added here after deployment.
+Live Demo: https://edupulse-online-learning-platform.vercel.app/
 
 
 ## 1. Project Overview & Objective
